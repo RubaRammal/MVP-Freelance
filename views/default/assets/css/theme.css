@@ -1,0 +1,221 @@
+body {
+  padding-bottom: 30px;
+  background-color: #f8f9fa;
+  direction: rtl !important;
+  border-radius: none !important;
+  font-family: 'Tajawal', sans-serif !important;
+}
+
+/* .theme-dropdown .dropdown-menu {
+  display: block;
+  position: static;
+  margin-bottom: 20px;
+} */
+
+
+.container  {
+  padding: 20px;
+}
+
+.job-title {
+  color: #269abc; 
+  text-decoration: underline;
+}
+
+.job-company {
+  color: #000; 
+  font-weight: bold;
+}
+
+.job-highlight {
+  background-color: #ffc;
+}
+
+.job-rss {
+  background-color: #ff6600 !important;
+}
+
+.row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.view-jobs {
+  color: #c1c7c7; 
+}
+
+.view-jobs:hover {
+  color: #727474; 
+}
+
+.list-group {
+  margin-bottom: 20px;
+}
+
+.alert {
+  border: none;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.list {
+  width: auto;
+  background-color: white;
+  margin: auto;
+  margin-top: 25px;
+  -webkit-box-shadow: 3px 6px 9px -5px rgba(171,171,171,0.64);
+  -moz-box-shadow: 3px 6px 9px -5px rgba(171,171,171,0.64);
+  box-shadow: 3px 6px 9px -5px rgba(171,171,171,0.64);
+}
+
+.card {
+  width: auto;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 3px 6px 9px -5px rgba(171,171,171,0.64);
+  -moz-box-shadow: 3px 6px 9px -5px rgba(171,171,171,0.64);
+  box-shadow: 3px 6px 9px -5px rgba(171,171,171,0.64);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  border-radius: 0 !important;
+}
+
+.lead {
+  padding: 20px;
+}
+
+.list-layout {
+  margin: auto;
+  width: -webkit-fill-available;
+  text-align: -webkit-auto;
+}
+
+.item-layout {
+  border: 1.5px solid #f8f9fa;
+}
+
+.item-layout:hover {
+  background-color: #f8f9fa !important;
+  cursor: pointer !important;
+}
+
+.apply-item:hover {
+  background-color: white !important;
+  cursor: default !important;
+}
+
+.job-category {
+  padding: 20px;
+}
+
+.all-btns {
+  background-color: #343a40 ;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  border: none;
+  color: white;
+}
+
+.job-btn {
+  margin: 15px;
+}
+
+.input-group > .form-control:not(:last-child), .input-group > .custom-select:not(:last-child) {
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important; 
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+  border-top-left-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+}
+
+.custom-file-label {
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+   .container-small {
+      max-width: 500px !important;
+      margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-small{
+      max-width: 500px !important;
+      margin: auto;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+}
+
+
+.row-alg {
+  margin-right: inherit;
+}
+
+.card-padding {
+  padding: 30px;;
+}
+
+.social-profile {
+  padding: 3px;
+}
+
+/* Ahmed Theme */
+/* profile css */
+/* 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+} */
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+/* a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+} */
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+/* ends of profile css */
+
+/* end of Ahmed Them */
+
